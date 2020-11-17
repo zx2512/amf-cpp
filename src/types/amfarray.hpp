@@ -2,7 +2,7 @@
 #ifndef AMFARRAY_HPP
 #define AMFARRAY_HPP
 
-#include <map>
+#include <unordered_map>
 #include <string>
 
 #include "types/amfitem.hpp"
@@ -71,7 +71,7 @@ public:
 	static AmfArray deserialize(v8::const_iterator& it, v8::const_iterator end, SerializationContext& ctx);
 
 	std::vector<AmfItemPtr> dense;
-	std::map<std::string, AmfItemPtr> associative;
+	std::unordered_map<std::string, AmfItemPtr> associative;
 };
 
 } // namespace amf
