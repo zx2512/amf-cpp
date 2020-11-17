@@ -23,7 +23,7 @@ public:
 	}
 
 	template<class V, class A>
-	AmfArray(std::vector<V> densePart, std::map<std::string, A> associativePart) {
+	AmfArray(std::vector<V> densePart, std::unordered_map<std::string, A> associativePart) {
 		for (const V& it : densePart)
 			push_back(it);
 
