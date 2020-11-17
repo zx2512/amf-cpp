@@ -138,30 +138,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\src\amf.hpp" />
-    <ClInclude Include="..\src\amfpacket.hpp" />
-    <ClInclude Include="..\src\deserializer.hpp" />
-    <ClInclude Include="..\src\serializationcontext.hpp" />
-    <ClInclude Include="..\src\serializer.hpp" />
-    <ClInclude Include="..\src\types\amfarray.hpp" />
-    <ClInclude Include="..\src\types\amfbool.hpp" />
-    <ClInclude Include="..\src\types\amfbytearray.hpp" />
-    <ClInclude Include="..\src\types\amfdate.hpp" />
-    <ClInclude Include="..\src\types\amfdictionary.hpp" />
-    <ClInclude Include="..\src\types\amfdouble.hpp" />
-    <ClInclude Include="..\src\types\amfinteger.hpp" />
-    <ClInclude Include="..\src\types\amfitem.hpp" />
-    <ClInclude Include="..\src\types\amfnull.hpp" />
-    <ClInclude Include="..\src\types\amfobject.hpp" />
-    <ClInclude Include="..\src\types\amfstring.hpp" />
-    <ClInclude Include="..\src\types\amfundefined.hpp" />
-    <ClInclude Include="..\src\types\amfvector.hpp" />
-    <ClInclude Include="..\src\types\amfxml.hpp" />
-    <ClInclude Include="..\src\types\amfxmldocument.hpp" />
-    <ClInclude Include="..\src\utils\amfitemptr.hpp" />
-    <ClInclude Include="..\src\utils\amfobjecttraits.hpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="..\src\amfpacket.cpp" />
     <ClCompile Include="..\src\deserializer.cpp" />
     <ClCompile Include="..\src\serializationcontext.cpp" />
@@ -178,6 +154,30 @@
     <ClCompile Include="..\src\types\amfvector.cpp" />
     <ClCompile Include="..\src\types\amfxml.cpp" />
     <ClCompile Include="..\src\types\amfxmldocument.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\amf\amf.hpp" />
+    <ClInclude Include="..\include\amf\amfpacket.hpp" />
+    <ClInclude Include="..\include\amf\deserializer.hpp" />
+    <ClInclude Include="..\include\amf\serializationcontext.hpp" />
+    <ClInclude Include="..\include\amf\serializer.hpp" />
+    <ClInclude Include="..\include\amf\types\amfarray.hpp" />
+    <ClInclude Include="..\include\amf\types\amfbool.hpp" />
+    <ClInclude Include="..\include\amf\types\amfbytearray.hpp" />
+    <ClInclude Include="..\include\amf\types\amfdate.hpp" />
+    <ClInclude Include="..\include\amf\types\amfdictionary.hpp" />
+    <ClInclude Include="..\include\amf\types\amfdouble.hpp" />
+    <ClInclude Include="..\include\amf\types\amfinteger.hpp" />
+    <ClInclude Include="..\include\amf\types\amfitem.hpp" />
+    <ClInclude Include="..\include\amf\types\amfnull.hpp" />
+    <ClInclude Include="..\include\amf\types\amfobject.hpp" />
+    <ClInclude Include="..\include\amf\types\amfstring.hpp" />
+    <ClInclude Include="..\include\amf\types\amfundefined.hpp" />
+    <ClInclude Include="..\include\amf\types\amfvector.hpp" />
+    <ClInclude Include="..\include\amf\types\amfxml.hpp" />
+    <ClInclude Include="..\include\amf\types\amfxmldocument.hpp" />
+    <ClInclude Include="..\include\amf\utils\amfitemptr.hpp" />
+    <ClInclude Include="..\include\amf\utils\amfobjecttraits.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
