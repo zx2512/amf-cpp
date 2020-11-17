@@ -2,7 +2,7 @@
 #ifndef AMFBYTEARRAY_HPP
 #define AMFBYTEARRAY_HPP
 
-#include "types/amfitem.hpp"
+#include "amf/types/amfitem.hpp"
 
 namespace amf {
 

@@ -2,7 +2,7 @@
 #ifndef AMFINTEGER_HPP
 #define AMFINTEGER_HPP
 
-#include "types/amfitem.hpp"
+#include "amf/types/amfitem.hpp"
 
 namespace amf {
 

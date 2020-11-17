@@ -4,7 +4,7 @@
 
 #include <vector>
 
-#include "amf.hpp"
+#include "amf/amf.hpp"
 
 namespace amf {
 

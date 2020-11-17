@@ -2,7 +2,7 @@
 #ifndef AMFBOOL_HPP
 #define AMFBOOL_HPP
 
-#include "types/amfitem.hpp"
+#include "amf/types/amfitem.hpp"
 
 namespace amf {
 

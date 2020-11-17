@@ -1,7 +1,7 @@
-#include "amfinteger.hpp"
+#include "amf/types/amfinteger.hpp"
 
-#include "serializationcontext.hpp"
-#include "types/amfdouble.hpp"
+#include "amf/serializationcontext.hpp"
+#include "amf/types/amfdouble.hpp"
 
 namespace amf {
 

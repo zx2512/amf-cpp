@@ -1,7 +1,7 @@
-#include "amfbytearray.hpp"
+#include "amf/types/amfbytearray.hpp"
 
-#include "serializationcontext.hpp"
-#include "types/amfinteger.hpp"
+#include "amf/serializationcontext.hpp"
+#include "amf/types/amfinteger.hpp"
 
 namespace amf {
 

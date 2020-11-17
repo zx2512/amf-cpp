@@ -5,9 +5,9 @@
 #include <functional>
 #include <map>
 
-#include "types/amfitem.hpp"
-#include "utils/amfitemptr.hpp"
-#include "utils/amfobjecttraits.hpp"
+#include "amf/types/amfitem.hpp"
+#include "amf/utils/amfitemptr.hpp"
+#include "amf/utils/amfobjecttraits.hpp"
 
 namespace amf {
 

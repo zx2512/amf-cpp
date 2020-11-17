@@ -1,4 +1,4 @@
-#include "amfdouble.hpp"
+#include "amf/types/amfdouble.hpp"
 
 namespace amf {
 

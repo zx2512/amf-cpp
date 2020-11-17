@@ -1,8 +1,8 @@
-#include "amfxmldocument.hpp"
+#include "amf/types/amfxmldocument.hpp"
 
-#include "serializationcontext.hpp"
-#include "types/amfinteger.hpp"
-#include "types/amfxml.hpp"
+#include "amf/serializationcontext.hpp"
+#include "amf/types/amfinteger.hpp"
+#include "amf/types/amfxml.hpp"
 
 namespace amf {
 

@@ -1,9 +1,9 @@
-#include "amfarray.hpp"
+#include "amf/types/amfarray.hpp"
 
-#include "deserializer.hpp"
-#include "serializationcontext.hpp"
-#include "types/amfinteger.hpp"
-#include "types/amfstring.hpp"
+#include "amf/deserializer.hpp"
+#include "amf/serializationcontext.hpp"
+#include "amf/types/amfinteger.hpp"
+#include "amf/types/amfstring.hpp"
 
 namespace amf {
 

@@ -1,4 +1,4 @@
-#include "serializationcontext.hpp"
+#include "amf/serializationcontext.hpp"
 
 namespace amf {
 

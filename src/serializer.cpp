@@ -1,6 +1,6 @@
-#include "serializer.hpp"
+#include "amf/serializer.hpp"
 
-#include "types/amfitem.hpp"
+#include "amf/types/amfitem.hpp"
 
 namespace amf {
 

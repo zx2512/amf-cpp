@@ -2,7 +2,7 @@
 #ifndef AMFDOUBLE_HPP
 #define AMFDOUBLE_HPP
 
-#include "types/amfitem.hpp"
+#include "amf/types/amfitem.hpp"
 
 namespace amf {
 

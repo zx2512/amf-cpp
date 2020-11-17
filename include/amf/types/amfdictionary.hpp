@@ -4,8 +4,8 @@
 
 #include <unordered_map>
 
-#include "types/amfitem.hpp"
-#include "utils/amfitemptr.hpp"
+#include "amf/types/amfitem.hpp"
+#include "amf/utils/amfitemptr.hpp"
 
 namespace amf {
 

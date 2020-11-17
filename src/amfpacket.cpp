@@ -1,8 +1,8 @@
-#include "amfpacket.hpp"
+#include "amf/amfpacket.hpp"
 
-#include "deserializer.hpp"
-#include "serializationcontext.hpp"
-#include "types/amfnull.hpp"
+#include "amf/deserializer.hpp"
+#include "amf/serializationcontext.hpp"
+#include "amf/types/amfnull.hpp"
 
 namespace amf {
 

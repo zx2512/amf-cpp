@@ -1,8 +1,8 @@
-#include "amfdate.hpp"
+#include "amf/types/amfdate.hpp"
 
-#include "serializationcontext.hpp"
-#include "types/amfdouble.hpp"
-#include "types/amfinteger.hpp"
+#include "amf/serializationcontext.hpp"
+#include "amf/types/amfdouble.hpp"
+#include "amf/types/amfinteger.hpp"
 
 namespace amf {
 

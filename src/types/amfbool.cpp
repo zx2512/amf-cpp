@@ -1,4 +1,4 @@
-#include "amfbool.hpp"
+#include "amf/types/amfbool.hpp"
 
 namespace amf
 {

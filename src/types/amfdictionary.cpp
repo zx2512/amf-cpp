@@ -1,17 +1,17 @@
-#include "amfdictionary.hpp"
+#include "amf/types/amfdictionary.hpp"
 
 #include <iomanip>
 #include <limits>
 #include <sstream>
 
-#include "deserializer.hpp"
-#include "serializationcontext.hpp"
-#include "types/amfbool.hpp"
-#include "types/amfdouble.hpp"
-#include "types/amfinteger.hpp"
-#include "types/amfnull.hpp"
-#include "types/amfstring.hpp"
-#include "types/amfundefined.hpp"
+#include "amf/deserializer.hpp"
+#include "amf/serializationcontext.hpp"
+#include "amf/types/amfbool.hpp"
+#include "amf/types/amfdouble.hpp"
+#include "amf/types/amfinteger.hpp"
+#include "amf/types/amfnull.hpp"
+#include "amf/types/amfstring.hpp"
+#include "amf/types/amfundefined.hpp"
 
 namespace amf {
 
