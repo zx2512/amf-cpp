@@ -50,3 +50,6 @@ cov-int
 # Documentation
 *.pdf
 TODO
+
+.vs
+.git
